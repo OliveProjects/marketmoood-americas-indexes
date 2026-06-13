@@ -26,6 +26,8 @@ INDEXES = {
     "TSX Composite": ("^tsx",  "%5EGSPTSE"),
     "Bovespa":       ("^bvsp", "%5EBVSP"),
     "IPC Mexico":    ("^mxx",  "%5EMXX"),
+    "Merval":        ("^mrv",  "%5EMERV"),
+    "IPSA":          ("^ipsa", "%5EIPSA"),
 }
 
 
@@ -141,8 +143,8 @@ def main():
         })
         time.sleep(0.4)
 
-    if len(indices) < 2:
-        print(f"  Only {len(indices)} index/indices fetched (expected 3) — skipping save to preserve existing data.")
+    if len(indices) < 3:
+        print(f"  Only {len(indices)} index/indices fetched (expected 5) — skipping save to preserve existing data.")
         return
 
     save("data/americas-history.json", {
