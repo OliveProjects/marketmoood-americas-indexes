@@ -25,7 +25,6 @@ SYMBOLS = {
     "Bovespa":       "%5EBVSP",
     "IPC Mexico":    "%5EMXX",
     "Merval":        "%5EMERV",
-    "IPSA":          "%5EIPSA",
 }
 
 

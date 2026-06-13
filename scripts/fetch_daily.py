@@ -27,7 +27,6 @@ INDEXES = {
     "Bovespa":       ("^bvsp", "%5EBVSP"),
     "IPC Mexico":    ("^mxx",  "%5EMXX"),
     "Merval":        ("^mrv",  "%5EMERV"),
-    "IPSA":          ("^ipsa", "%5EIPSA"),
 }
 
 
