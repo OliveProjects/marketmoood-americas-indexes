@@ -24,7 +24,6 @@ SYMBOLS = {
     "TSX Composite": "%5EGSPTSE",
     "Bovespa":       "%5EBVSP",
     "IPC Mexico":    "%5EMXX",
-    "Merval":        "%5EMERV",
 }
 
 
